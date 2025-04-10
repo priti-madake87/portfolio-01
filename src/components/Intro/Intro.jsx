@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import me from "../../img/me.jpg";
+import me from "../../img/me.png";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import { themeContext } from "../../Context";
@@ -46,25 +46,22 @@ const Intro = () => {
               </span>
             </h2>
           </div>
+
+
           <button
-            // onClick={() =>
-            //   window.open(
-            //     "https://drive.google.com/file/d/1Qer-lZNmSkChsNX6hAn94ylyP_PSJHbs/view?usp=sharing"
-            //   )
-            // }
-            className="resum rounded-sm flex bg-red-500 p-1 pl-3 pr-3  text-white hover:text-red-500 hover:bg-white animate-bounce hover:border-x-2 hover:border-red-500"
-          >
-            <a
-              href="/"
-              // download={"resume"}
-              // rel="noreferrer"
-              // target="_blank"
-              className="pr-0"
-            >
-              Resume
-            </a>
-            <HiDownload />
-          </button>
+  className="resum rounded-sm flex bg-red-500 p-1 pl-3 pr-3 text-white hover:text-red-500 hover:bg-white animate-bounce hover:border-x-2 hover:border-red-500"
+>
+  <a
+    href="/Debobrota_haldar_resume.pdf"
+    download="Debobrota_haldar_resume"
+    className="pr-2 flex items-center gap-2"
+  >
+    Resume <HiDownload />
+  </a>
+</button>
+
+
+
 
           <div className="i-icons">
             <a

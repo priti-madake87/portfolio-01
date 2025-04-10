@@ -13,7 +13,7 @@ const Footer = () => {
       />
       <div className="f-content">
         <span>
-          Designed and build by ... , 2024 All rights reserved.
+          Designed and build by pradip shelke , 2024 All rights reserved.
         </span>
         <div className="f-icons">{/*  add social media icons */}</div>
       </div>

@@ -75,23 +75,19 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <button
-                  // onClick={() =>
-                  //   window.open(
-                  //     "https://drive.google.com/file/d/1iipXOGQncc15wUiJiPC44fWnpApTTBiu/view?usp=drive_link"
-                  //   )
-                  // }
-                  className="resume-btn rounded-3xl bg-red-500 p-1 pl-3 pr-3  text-white hover:text-red-500 hover:bg-white transition-all border-x-2 border-red-500 hover:border-x-2 hover:border-red-500"
-                >
-                  <a
-                    href="/"
-                    // download={"Debobrota_haldar_resume"}
-                    // rel="noreferrer"
-                    // target="_blank"
-                  >
-                    Resume
-                  </a>
-                </button>
+              <button
+  className="resume-btn rounded-3xl bg-red-500 p-1 pl-3 pr-3 text-white hover:text-red-500 hover:bg-white transition-all border-x-2 border-red-500"
+>
+  <a
+    href="/Debobrota_haldar_resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2"
+  >
+    Resume
+  </a>
+</button>
+
               </li>
             </ul>
           </div>
